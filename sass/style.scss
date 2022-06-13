@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+    border: 5px solid;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 0;
+    border: none;
+    position: relative;
+}
+.header {
+    border-color: #2ecc71;
+}
+.nav {
+    border-color: #e74c3c;
+    position: absolute;
+    width: 200px;
+}
+.section {
+    border-color: #f1c40f;
+    margin-left: 200px;
+    height: 442px;
+}
+.footer {
+    border-color: #34495e;
+    background: #fff;
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
